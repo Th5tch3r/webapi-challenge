@@ -24,25 +24,31 @@ In this challenge, create a web API around the following resources: `Projects` a
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
-- [ ] Mention two parts of Express that you learned about this week.
+- [X] Mention two parts of Express that you learned about this week.
+    The first part that I learned about Express is that it allows us to use middlewares to respond to HTTP requests.
+    The second part is that it administers routing to perform speicific actions depend on the HTTP method/request.
 
-- [ ] Describe Middleware?
+- [X] Describe Middleware?
+    Developer uses Middleware to gain access to requests and response objects. There are 3 types of milddleware; build-in, third-party, and custom. All of these have specific uses, but the one thing they are in common is that they always are at the middle of the request and response.
 
-- [ ] Describe a Resource?
+- [X] Describe a Resource?
+    A Resource is what we use to fill or specify out API. 
 
-- [ ] What can the API return to help clients know if a request was successful?
+- [X] What can the API return to help clients know if a request was successful?
+    They usually return a status code that indicates that the request was sucessfully completed.
 
-- [ ] How can we partition our application into sub-applications?
+- [X] How can we partition our application into sub-applications?
+    We can achieve this by organize our code in separate files. We can keep index.js and server.js separately, so it is easier to debug later.
 
 ## Project Setup
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your _Team Lead_ as collaborator on Github.
-- [ ] Clone your forked version of the Repository.
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on this Branch, committing changes regularly.
+- [X] Create a forked copy of this project.
+- [X] Add your _Team Lead_ as collaborator on Github.
+- [X] Clone your forked version of the Repository.
+- [X] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [X] Implement the project on this Branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
